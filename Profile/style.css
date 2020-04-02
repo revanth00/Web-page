@@ -1,0 +1,98 @@
+body  {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90%;
+     margin-left: auto;
+     margin-right: auto;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     background-image: url(image04.jpg);
+     background-size:100%;
+    
+}
+
+img {
+    width: 550px;
+    border-radius: 10px;
+    flex: left;
+    
+}
+h3{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:  30px  ;
+}
+
+table  {
+    margin-top: 30px;
+    border-collapse: collapse;
+    width: 100%;
+    
+  
+}
+
+th {
+    background-color: rgb(197, 197, 197);
+    text-align: center;
+    padding: 10px;
+   
+}
+
+td {
+    background-color: rgb(243, 225, 225);
+    text-align: center;
+    padding: 10px;
+    
+  
+}
+
+.nav {
+    display: flex;
+}
+.box{ width:331.7px; 
+    border: 20px;
+    padding: 10px;
+    margin: 0px;
+    background-color:black;
+      color: white;
+    text-align: center;
+ border-right: 6px solid wheat;
+ transition: 0.6s;
+}
+ 
+.box:hover{
+    color: rgb(0, 162, 255);
+    background-color: transparent;
+    transition: 0.6s;
+}
+
+a{
+    text-decoration: none;
+    color: white}
+
+
+
+
+.boxImg {
+    margin-top: 50px;
+    display: flex;
+    width: 1024px;
+    text-align:center ;
+     text-align: left;
+     justify-content: space-evenly;
+     align-items: center;
+}
+
+.box2{
+     padding: 15px;
+} 
+
+button {
+    border: none;
+    padding: 12px 30px;
+    font-size: 1rem;
+    background-color: rosybrown;
+}
+iframe{
+    padding: 25px;
+    
+}
